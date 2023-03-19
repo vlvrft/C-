@@ -13,13 +13,14 @@ double IntersectionPoint(double b1, double k1, double b2, double k2)
 {
     double x = (-b2 + b1) / (-k1 + k2);
     double y = k2 * x + b2;
-    return x;
+    return x; 
     return y;
+    
 }
 
 void PrintNumber(double x, double y)
 {
-    Console.WriteLine($"две прямые пересекутся в точке с координатами X: {x}, Y: {y}");
+    Console.WriteLine($"две прямые пересекутся в точке c координатами X: {x}, Y: {y}");
 }
 
 
